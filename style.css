@@ -1,0 +1,41 @@
+body
+{
+	background: linear-gradient(#7F7FD5,#86A8E7,#91EAE4) scroll;
+
+}
+
+	.login_div1 , .login_div2
+	{
+		background:palevioletred;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        height: 200px;
+        width: 700px;
+	}
+
+
+#quizer_name , #quizer2_name
+{
+	display: inline-block;
+	
+   
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #81052c;
+padding: 10px;
+float: none;
+text-align: left;
+font-family: cursive;
+}
