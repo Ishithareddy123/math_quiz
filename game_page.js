@@ -24,12 +24,16 @@ function send(){
 }
 function check(){
     ans_check=document.getElementById("input_ans").innerHTML;
-    if(ans_check==num1*num2){
+    if(ans_check==(num1*num2)){
         if(answer_turn=="player1"){
             player1_score+=1;
+            console.log("player1_score"+player1_score);
+            document.getElementById("player1_score").innerHTML=player1_score;
         }
         if(answer_turn=="player2"){
             player2_score+=1;
+            console.log("player2_score"+player2_score);
+            document.getElementById("player2_score").innerHTML=player2_score;
         }
     }
 }
